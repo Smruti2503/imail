@@ -380,6 +380,13 @@ $bgColor: rgb(247, 245, 255);
       }
       
       @media (max-width: 570px) {
+        #logo{
+          
+          img{
+              width: 55px;
+          }
+       }
+
         form {
           padding: 0 1.5rem;
         }
