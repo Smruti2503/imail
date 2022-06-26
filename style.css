@@ -88,6 +88,13 @@ nav .rowDivide .links ul li {
 
 nav .rowDivide .links ul li a {
   text-decoration: none;
+  color: #6d4aff;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+
+nav .rowDivide .links ul li a:hover {
+  color: black;
 }
 
 nav .rowDivide .loginSignup a {
@@ -111,6 +118,7 @@ nav.sticky {
   top: 0;
   -webkit-transition: 0.5s linear all;
   transition: 0.5s linear all;
+  z-index: 800;
 }
 
 .sideNav ul {
