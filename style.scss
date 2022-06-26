@@ -92,6 +92,12 @@ nav {
 
                     a {
                         text-decoration: none;
+                        color: $color1;
+                        transition: 0.2s linear all;
+
+                        &:hover{
+                            color: black;
+                        }
                     }
                 }
             }
@@ -124,6 +130,7 @@ nav.sticky {
     left: -250px;
     top: 0;
     transition: 0.5s linear all;
+    z-index:800;
 
 
     ul {
@@ -981,3 +988,8 @@ nav.sticky {
         }
     }
 }
+
+
+
+
+
